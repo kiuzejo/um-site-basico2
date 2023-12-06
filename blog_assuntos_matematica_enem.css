@@ -1,0 +1,128 @@
+body{
+    background-color: aliceblue;
+}
+
+.linha{
+    background-color: rgb(32, 131, 131);
+    display: flex;
+    text-align: center;
+}
+
+.content{
+    padding-left: 5em;
+    padding-right: 5em;
+}
+
+.lide{
+    color: rgb(255, 255, 255);
+    margin-left: 11em;
+}
+
+.lide:hover{
+    font-size:larger;
+    color:rgb(184, 104, 6);
+    margin-left: 11em;
+    cursor: pointer;
+}
+
+.titulo{
+    font-family: roboto;
+    margin-left: 10em;
+    margin-top: 4em;
+    margin-bottom: 3em;
+}
+
+.texto{
+    font-family: raleway, sans-serif;
+    margin-bottom: 2em;
+    font-size:large;
+}
+
+.texto2{
+    font-family: barlow;
+    margin-bottom: 2em;
+    font-size:large;
+    color: black;
+}
+
+.link{
+    color: rgb(25, 134, 138);
+}
+
+.link:hover{
+    text-decoration: underline;
+    color: rgb(25, 134, 138);  
+    cursor: pointer;
+}
+
+a{
+    list-style-type:disc;
+    font-size:  2em;
+    color: rgb(25, 134, 138);
+    text-decoration: none;
+    margin-bottom: 1em
+}
+
+.img1 img{
+    border: 2px solid rgb(0, 0, 0);
+    margin-top: 4em;
+    width: 35em;
+    height: 25em;
+    margin-bottom: 4em;
+    margin-left: 10em;
+    display:inline-block;
+    max-width: 100%;;
+}
+
+.img2 img{
+    width:12em;
+    height: 5em;
+    margin-top: 3em;
+    margin-bottom: 3em;
+    border: 2px solid black;
+}
+
+.img3 img{
+    width:25em;
+    height: 16em;
+    margin-top: 3em;
+    margin-bottom: 3em;
+    border: 2px solid black;
+}
+
+.img4 img{
+    width:65em;
+    height: 40em;
+    margin-top: 3em;
+    margin-bottom: 3em;
+    border: 2px solid black;
+}
+
+.img5 img{
+    width:40em;
+    height: 30em;
+    margin-top: 3em;
+    margin-bottom: 3em;
+    border: 2px solid black;
+}
+
+.container{
+    background-color: aquamarine;
+    margin-left: 5em;
+    margin-right: 5em;
+    display: grid;
+    border: 1px solid black;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: center;
+    text-align: center;
+}
+
+.input{
+    margin-bottom: 1em;
+}
+
+.button{
+    background-color: rgb(139, 139, 139);
+}
+
+
